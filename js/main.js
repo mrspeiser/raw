@@ -2,6 +2,10 @@
 
 $('li').on('mouseover', function(){
 	$('.navigation').addClass('expand');
+	$('.line').animate({
+		width: "500px",
+		left: "100px"
+	});
 });
 
 $('header').on('mouseleave', function(){
@@ -12,6 +16,9 @@ $('header').on('mouseleave', function(){
 $('.nav-menu a').on('mouseover', function(){
 	$('.nav-menu a.active').removeClass('active');
 	$(this).addClass('active');
+	// $(this).prepend("<span class='line lineExpand'></span>")
+	
+
 	linkElmnts = $('.nav-menu a').get();
 });
 

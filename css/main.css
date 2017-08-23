@@ -79,6 +79,17 @@ nav:hover {
 	background: rgba(0,0,0, 0.3);
 }
 
+.line {
+	height: 2px;
+	background: yellow;
+	width: 100px;
+	padding: 1px;
+	border-radius: 50px;
+	position: absolute;
+	animation: all 1s;
+}
+
+
 .wrapper-2 {
 	width: 100%;
 	height: 100%;
@@ -86,4 +97,8 @@ nav:hover {
 	background-position: center;
 	background-size: cover;
 	background-image: url('images/lambopic1.jpg');
+}
+
+@keyframes moveLine {
+	0
 }
