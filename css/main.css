@@ -17,12 +17,7 @@ header {
 	height: 0;
 }
 
-nav img {
-	height: 100%;
-	display: inline-block;
-}
-
-nav ul {
+header ul {
 	padding: 0;
 	margin: 0;
 	display: flex;
@@ -30,8 +25,7 @@ nav ul {
 
 }
 
-
-nav ul li {
+header ul li {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 100;
 	font-size: 15px;
@@ -42,13 +36,12 @@ nav ul li {
 	transition: all 1s;
 }
 
-nav ul li:hover header {
-	transform: scale(100);
-	height: 100px;
+header ul li:hover {
+	/*background: rgba(0,0,0, 0.7);*/
 }
 
-nav ul li:hover {
-	background: rgba(0,0,0, 0.7);
+nav:hover {
+	height: 400px;
 }
 
 .wrapper {
@@ -60,10 +53,11 @@ nav ul li:hover {
 .navigation {
 	background: rgba(0,0,0, .3);
 	position: absolute;
-	height: 70px;
+	height: 0px;
 	width: 100%;
 	display: flex;
 	padding-left: 38px;
+	transition: all;
 }
 
 .expand {
@@ -71,13 +65,18 @@ nav ul li:hover {
 	transition: all 333ms ease-in-out;}
 
 .logo {
+	/*background: blue;*/
 	background-image: url('images/logo.png');
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 100%;
 	width: 60px;
-	margin-right: 25px;
+	height: 60px;
+	margin: 0 15px;
+}
+
+.active {
+	background: rgba(0,0,0, 0.3);
 }
 
 .wrapper-2 {
