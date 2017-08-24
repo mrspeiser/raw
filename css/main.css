@@ -85,11 +85,16 @@ nav:hover {
 	margin: 0 15px;
 }
 
+.nav-link {
+	border-bottom: 1px solid yellow;
+}
+
+
 .active {
 	background: rgba(0,0,0, 0.3);
 }
 
-.line {
+/*.line {
 	height: 2px;
 	background: yellow;
 	width: 100px;
@@ -98,7 +103,7 @@ nav:hover {
 	position: absolute;
 	animation: all 1s;
 }
-
+*/
 
 .wrapper-2 {
 	width: 100%;
@@ -112,6 +117,7 @@ nav:hover {
 .link-content {
 	transition: all 333ms ease;
 	color: yellow;
+	position: absolute;
 }
 
 @keyframes moveLine {
