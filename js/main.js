@@ -16,8 +16,28 @@ $('header').on('mouseleave', function(){
 $('.nav-menu a').on('mouseover', function(){
 	$('.nav-menu a.active').removeClass('active');
 	$(this).addClass('active');
+	if($('#models').hasClass('active')){
+		$('#models-content').removeClass('dn');
+	} else if ($('#brand').hasClass('active')) {
+		$('.navigation div').addClass('dn');
+		$('#brand-content').removeClass('dn');
+	} else if ($('#ownership').hasClass('active')){
+		$('.navigation div').addClass('dn');
+		$('#ownership-content').removeClass('dn');
+	} else if ($('#experience').hasClass('active')){
+		$('.navigation div').addClass('dn');
+		$('#experience-content').removeClass('dn');
+	} else if ($('#motorsport').hasClass('active')){
+		$('.navigation div').addClass('dn');
+		$('#motorsport-content').removeClass('dn');
+	} else if ($('#store').hasClass('active')){
+		$('.navigation div').addClass('dn');
+		$('#store-content').removeClass('dn');
+	}
 	// $(this).prepend("<span class='line lineExpand'></span>")
-	
+	experience
+motorsport
+store
 
 	linkElmnts = $('.nav-menu a').get();
 });

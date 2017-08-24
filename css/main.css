@@ -36,12 +36,22 @@ header ul li {
 	transition: all 1s;
 }
 
+div .link-content {
+}
+
+
+
 header ul li:hover {
 	/*background: rgba(0,0,0, 0.7);*/
 }
 
 nav:hover {
 	height: 400px;
+}
+
+.dn {
+	transition: all 333ms ease;
+	opacity: 0;
 }
 
 .wrapper {
@@ -97,6 +107,11 @@ nav:hover {
 	background-position: center;
 	background-size: cover;
 	background-image: url('images/lambopic1.jpg');
+}
+
+.link-content {
+	transition: all 333ms ease;
+	color: yellow;
 }
 
 @keyframes moveLine {
