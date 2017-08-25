@@ -18,6 +18,7 @@ $('.nav-menu a').on('mouseover', function(){
 	$(this).addClass('active');
 	if($('#models').hasClass('active')){
 		$('#models-content').removeClass('dn');
+		$('#brand-content').addClass('dn');
 	} else if ($('#brand').hasClass('active')) {
 		$('.navigation div').addClass('dn');
 		$('#brand-content').removeClass('dn');
@@ -34,10 +35,7 @@ $('.nav-menu a').on('mouseover', function(){
 		$('.navigation div').addClass('dn');
 		$('#store-content').removeClass('dn');
 	}
-	// $(this).prepend("<span class='line lineExpand'></span>")
-	experience
-motorsport
-store
+
 
 	linkElmnts = $('.nav-menu a').get();
 });
@@ -48,6 +46,33 @@ $('.nav-menu a').on('mouseleave', function(){
 		$('.nav-menu a.active').removeClass('active');
 	}
 });
+
+$('.navigation').on('mouseleave', function(){
+	$('.link-content').addClass('dn');
+});
+
+var images = {
+	link1 : '<img class="mc-img" src="https://www.lamborghini.com/en-en/sites/en-en/files/DAM/it/models_gateway/blocks/special.png">',
+	link2 : '<img class="mc-img" src="https://www.lamborghini.com/en-en/sites/en-en/files/DAM/it/models_gateway/blocks/huracan.png">',
+	link3 : '<img class="mc-img" src="http://www.mansory.com/files/media/mansory/sliders/lamborghini-torofeo-carbon.png">',
+	link4 : '<img class="mc-img" src="https://www.lamborghinipalmbeach.com/public/images/featured-vehicle_aventador-s_o.png">',
+	link5 : '<img class="mc-img" src="https://www.lamborghini.com/en-en/sites/en-en/files/DAM/lamborghini/gateway-family/aventador/cars/aventador-coupe.png">',
+
+}
+
+src1 = "https://www.lamborghini.com/en-en/sites/en-en/files/DAM/it/models_gateway/blocks/special.png";
+src2 = "https://www.lamborghini.com/en-en/sites/en-en/files/DAM/it/models_gateway/blocks/huracan.png";
+src3 = "http://www.mansory.com/files/media/mansory/sliders/lamborghini-torofeo-carbon.png";
+src4 = "https://www.lamborghinipalmbeach.com/public/images/featured-vehicle_aventador-s_o.png";
+src5 = "https://www.lamborghini.com/en-en/sites/en-en/files/DAM/lamborghini/gateway-family/aventador/cars/aventador-coupe.png";	
+
+$('.mc-link1').on('mouseover', function(){
+	if ($('.navigation').height() == 0) {
+		
+	} else{
+		$('#models-content').append(images.link1);
+	}
 	
+})
 
 })();

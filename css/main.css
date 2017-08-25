@@ -63,7 +63,7 @@ nav:hover {
 .navigation {
 	background: rgba(0,0,0, .3);
 	position: absolute;
-	height: 0px;
+	height: 400px;
 	width: 100%;
 	display: flex;
 	padding-left: 38px;
@@ -94,16 +94,6 @@ nav:hover {
 	background: rgba(0,0,0, 0.3);
 }
 
-/*.line {
-	height: 2px;
-	background: yellow;
-	width: 100px;
-	padding: 1px;
-	border-radius: 50px;
-	position: absolute;
-	animation: all 1s;
-}
-*/
 
 .wrapper-2 {
 	width: 100%;
@@ -118,6 +108,28 @@ nav:hover {
 	transition: all 333ms ease;
 	color: yellow;
 	position: absolute;
+}
+
+.models-content-ul {
+	display: inline-block;
+	padding-top: 20px;
+}
+
+.mc-img {
+	display: inline-block;
+	padding-bottom: 200px;
+	overflow: hidden;
+}
+
+.mc-li {
+	display: block;
+	float: none;
+}
+
+.mc-li a {
+	padding: 15px;
+	color: white;
+
 }
 
 @keyframes moveLine {
