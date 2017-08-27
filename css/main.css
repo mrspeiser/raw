@@ -52,6 +52,7 @@ nav:hover {
 footer {
 	height: 300px;
 	background: #000;
+	padding: 0;
 }
 
 .dn {
@@ -109,6 +110,7 @@ footer {
 	background-size: cover;
 	background-image: url('images/lambopic1.jpg');
 	background-attachment: fixed;
+
 }
 
 .link-content {
@@ -148,9 +150,65 @@ footer {
 .section3 {
 	background-image: url('http://2.bp.blogspot.com/-W0PyjUuty_c/U04ryhc8w0I/AAAAAAAAAE0/Ot6LN3ocZLY/s1600/Lamborghini+Veneno+From+Behind+Photos.jpg');
 	background-attachment: fixed;
+	background-size: cover;
 	height: 500px;
 }
 
+.section4 {
+	background-image: url('https://www.hdwallpapers.in/walls/2014_lamborghini_veneno_roadster-wide.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 500px;
+}
+
+.motorsportbox {
+	background-image: url('https://www.lamborghinimontreal.com/wp-content/uploads/2017/05/JPrice_LSTCOTA_17-2113_0.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.storebox {
+	background-image: url('http://4.bp.blogspot.com/_FoXyvaPSnVk/S-hbdY20IzI/AAAAAAAC00E/n3FtomGDp6w/s1600/Lamborghini-Boutique-Canada-003.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.eventsbox {
+	background-image: url('https://static1.squarespace.com/static/588635383a04117779eef002/t/595ec54e37c581b58d6b3011/1499383119430/250688_10151864886790221_1276026310_n.jpg?format=1000w');
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.videobox {
+	background-image: url('http://gph.to/2vARhIB');
+	background-position: center center;
+	background-size: cover;
+
+}
+
+.ownershipbox {
+	background-image: url('http://www.lambocars.com/images/lambonews/production_numbers.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.experiencebox {
+	background-image: url('https://c1.staticflickr.com/3/2835/9465153248_cab9a67ae1_b.jpg');
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.footer {
+	padding-left: 0;
+	padding-right: 0;
+	padding: 0;
+}
 
 @keyframes moveLine {
 	0
