@@ -108,6 +108,7 @@ footer {
 	background-position: center center;
 	background-size: cover;
 	background-image: url('images/lambopic1.jpg');
+	background-attachment: fixed;
 }
 
 .link-content {
@@ -141,8 +142,13 @@ footer {
 
 .section {
 	
-	background-color: white;
 	height: 400px;
+}
+
+.section3 {
+	background-image: url('http://2.bp.blogspot.com/-W0PyjUuty_c/U04ryhc8w0I/AAAAAAAAAE0/Ot6LN3ocZLY/s1600/Lamborghini+Veneno+From+Behind+Photos.jpg');
+	background-attachment: fixed;
+	height: 500px;
 }
 
 
