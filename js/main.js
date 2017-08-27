@@ -1,6 +1,6 @@
 (function(){
 
-$('li').on('mouseover', function(){
+$('.nav-menu').on('mouseover', function(){
 	$('.navigation').addClass('expand');
 	$('.line').animate({
 		width: "500px",
@@ -8,9 +8,10 @@ $('li').on('mouseover', function(){
 	});
 });
 
-$('header').on('mouseleave', function(){
+$('.navigation').on('mouseleave', function(){
 	$('.navigation').removeClass('expand');
 	$('.nav-menu a.active').removeClass('active');
+	$('#models-content img').remove();
 });
 
 $('.nav-menu a').on('mouseover', function(){
@@ -68,12 +69,9 @@ src5 = "https://www.lamborghini.com/en-en/sites/en-en/files/DAM/lamborghini/gate
 
 $('.mc-link1').on('mouseover', function(){
 	if ($('.navigation').height() == 0) {
-		
-	// } else if($('#models-content.img')){
-	// 	$('#models-content.img').remove();
 
-	// } 
 }	else{
+		$('#models-content img').remove();
 		$('#models-content').append(images.link1);
 	}
 	
@@ -83,6 +81,7 @@ $('.mc-link2').on('mouseover', function(){
 	if ($('.navigation').height() == 0) {
 		
 	} else{
+		$('#models-content img').remove();
 		$('#models-content').append(images.link2);
 	}
 });
@@ -91,6 +90,7 @@ $('.mc-link3').on('mouseover', function(){
 	if ($('.navigation').height() == 0) {
 		
 	} else{
+		$('#models-content img').remove();
 		$('#models-content').append(images.link3);
 	}
 });
@@ -99,6 +99,7 @@ $('.mc-link4').on('mouseover', function(){
 	if ($('.navigation').height() == 0) {
 		
 	} else{
+		$('#models-content img').remove();
 		$('#models-content').append(images.link4);
 	}
 });
@@ -107,6 +108,7 @@ $('.mc-link5').on('mouseover', function(){
 	if ($('.navigation').height() == 0) {
 		
 	} else{
+		$('#models-content img').remove();
 		$('#models-content').append(images.link5);
 	}
 });

@@ -63,7 +63,7 @@ nav:hover {
 .navigation {
 	background: rgba(0,0,0, .3);
 	position: absolute;
-	height: 400px;
+	height: 0;
 	width: 100%;
 	display: flex;
 	padding-left: 38px;
@@ -119,6 +119,7 @@ nav:hover {
 	display: inline-block;
 	padding-bottom: 200px;
 	overflow: hidden;
+	width: 40%;
 }
 
 .mc-li {
