@@ -1,6 +1,6 @@
 (function(){
 
-$('.nav-menu').on('mouseover', function(){
+$('.nav-menu .link').on('mouseover', function(){
 	$('.navigation').addClass('expand');
 	$('.line').animate({
 		width: "500px",
@@ -112,5 +112,8 @@ $('.mc-link5').on('mouseover', function(){
 		$('#models-content').append(images.link5);
 	}
 });
+
+
+
 
 })();
