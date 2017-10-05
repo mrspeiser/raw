@@ -1,12 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web);
 @import url(https://fonts.googleapis.com/css?family=Raleway:800);
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+@import url(https://fonts.googleapis.com/css?family=Scope+One);
+@import url(https://fonts.googleapis.com/css?family=Anton);
+@import url(https://fonts.googleapis.com/css?family=Doppio+One);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,100);
 html {
   margin: 0;
   padding: 0; }
 
 body {
-<<<<<<< HEAD
   margin: 0; }
 
 h1, h2, h3, h4, h5 {
@@ -20,8 +25,3 @@ li {
   margin: 0; }
 
 /*# sourceMappingURL=main.css.map */
-=======
-  margin: 0;
-  padding: 0;
-}
->>>>>>> refs/remotes/origin/master
